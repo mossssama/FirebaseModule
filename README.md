@@ -48,9 +48,10 @@ Documentation for Using Firebase in Android
       firebaseAuth.createUserWithEmailAndPassword(email, password);       // Sign Up
       firebaseAuth.signInWithEmailAndPassword(email, password);           // Sign In
 
-[4] **Most important methods to deal with**
+[4] **Most important methods to deal with** (firebaseAuth methods)
 
-      TobeAdded
+      getCurrentuser()                                  //returns currentUser information; checkout it's methods
+      signOut()                                         //signOut from app
 
 [5] **Check simple project on it [here](https://github.com/mossssama/FirebaseAuthentication)**
 
