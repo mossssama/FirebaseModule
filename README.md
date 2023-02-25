@@ -45,7 +45,8 @@ Documentation for Using Firebase in Android
       
 [3] **Start authenticating using the following or its equivalents**
 
-      firebaseAuth.createUserWithEmailAndPassword(email, password);                              
+      firebaseAuth.createUserWithEmailAndPassword(email, password);       // Sign Up
+      firebaseAuth.signInWithEmailAndPassword(email, password);           // Sign In
 
 [4] **Most important methods to deal with**
 
